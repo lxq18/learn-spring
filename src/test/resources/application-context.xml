@@ -3,6 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="studentService" class="com.lxq18.learn.spring.impl.service.StudentServiceImpl"></bean>
-    <bean id="teacherService" class="com.lxq18.learn.spring.impl.service.TeacherServiceImpl"></bean>
+    <bean id="teacherService" class="com.lxq18.learn.spring.impl.service.TeacherServiceImpl">
+        <property name="name" value="wang"/>
+        <property name="age" value="120"/>
+    </bean>
 
 </beans>
