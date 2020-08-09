@@ -1,4 +1,4 @@
-package com.lxq18.learn.spring;
+package com.lxq18.learn.spring.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

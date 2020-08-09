@@ -3,7 +3,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
-public class SpringTest {
+public class FileSystemXmlApplicationContextTest {
 
     @Test
     public void test() {
